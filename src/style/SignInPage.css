@@ -1,0 +1,66 @@
+.custom-search-input {
+    border: none;
+    outline: none;
+    background-color: transparent !important;
+    box-shadow: unset !important;
+}
+
+
+body {
+    font-family: 'Causten';
+}
+
+.margin-9{
+    margin-left: 7.3rem;
+}
+
+.navbar {
+    background-color: white !important;
+}
+
+
+
+.pl-5px {
+    padding-left: 8px !important;
+}
+
+.gap-14px {
+    gap: 14px;
+}
+
+.gap-2rem{
+    gap: 2rem;
+}
+
+.signInPageButton {
+    display: inline-flex;
+    padding: 0.75rem 3rem;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #3C4242;
+    gap: 0.75rem;
+    border-radius: 0.5rem;
+    background-color: transparent;
+    color: #8A33FD;
+}
+
+.loginButton{
+    background-color: #8A33FD;
+    color: white;
+}
+
+a.nav-link.dropdown-toggle.container1 {
+    padding-left: 32%;
+}
+
+@media(max-width:1050px){
+    .margin-9{
+        margin-left: unset;
+    }
+}
+
+@media(max-width:900px){
+    .buttonsDivLoginSign{
+        flex-direction: column;
+    }
+}

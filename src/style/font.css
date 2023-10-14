@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'Mintaka';
+    src: url('../fonts/Mintaka.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Causten';
+    src: url('../fonts/Causten-Regular.otf') format('opentype');
+}
+
+.font-mintaka {
+    font-family: 'Mintaka';
+    color: #3C4242;
+    font-size: 2.129rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.line-svg {
+    position: relative;
+    top: -0.7rem;
+    margin-bottom: -5px;
+}
+
+.font-causten {
+    font-family: 'Causten';
+}
+
+*{
+    font-family: 'Causten';
+}

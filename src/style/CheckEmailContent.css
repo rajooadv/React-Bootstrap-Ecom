@@ -1,0 +1,10 @@
+.resetDesc a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #8A33FD;
+}
+
+.alreadyHaveAccount {
+    width: 100%;
+    color: #807D7E;
+}

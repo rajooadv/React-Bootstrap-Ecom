@@ -1,0 +1,108 @@
+.signInButtons {
+    margin-top: 3.12rem;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+
+@font-face {
+    font-family: 'Causten';
+    src: url('../fonts/Causten-Regular.otf') format('opentype');
+}
+
+.font-causten {
+    font-family: 'Causten';
+}
+
+.enterEmailLable {
+    color: #3C4242;
+    font-size: 1.125rem;
+}
+
+#exampleFormControlInput1 {
+    border: 1px solid #3C4242;
+    height: 3rem;
+}
+
+.passwordSingInPage {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hideIconSignIn {
+    display: flex;
+    cursor: pointer;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.signInButtons button {
+    width: 100%;
+    height: 3.2rem;
+    background-color: transparent;
+    color: #8A33FD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid #3C4242;
+    font-size: 1.2rem;
+}
+
+.signInData.container {
+    width: 28%;
+}
+
+.orDivSignInContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    color: gray;
+    margin-bottom: 2rem;
+}
+
+.line {
+    flex: 1;
+    border-top: 1px solid gray;
+}
+
+.or {
+    padding: 0 10px;
+}
+
+.dontHaveAccountSignup {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    cursor: pointer;
+}
+
+.dontHaveAccountP {
+    margin-top: 1.4rem;
+}
+
+.forgetPassword {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    display: flex;
+    cursor: pointer;
+    justify-content: flex-end;
+}
+
+.navbar {
+    padding-bottom: 1.3rem;
+}
+
+@media(max-width:1110px) {
+    .imgSingInPageContent {
+        display: none;
+    }
+
+    .signInData.container {
+        width: 30rem;
+    }
+
+
+}
